@@ -1,0 +1,18 @@
+<svg width="19" height="31" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="svg_6" x1="0" y1="0.007813" x2="0.972656" y2="0" spreadMethod="pad">
+   <stop stop-color="#515151" offset="0"/>
+   <stop stop-color="#aeaeae" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="3.51069" height="4.46481" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path d="m16.49792,13.79887l-9.586,-9.586c-0.878,-0.878 -2.317,-0.878 -3.195,0l-0.8,0.8c-0.878,0.877 -0.878,2.316 0,3.194l7.314,7.316l-7.315,7.315c-0.878,0.878 -0.878,2.317 0,3.194l0.8,0.8c0.878,0.879 2.317,0.879 3.195,0l9.586,-9.587c0.472,-0.471 0.682,-1.103 0.647,-1.723c0.036,-0.619 -0.174,-1.251 -0.646,-1.723z" fill="#fcfcfc" id="svg_1"/>
+  <ellipse fill="url(#svg_6)" stroke="null" stroke-width="null" stroke-opacity="null" cx="7.233644" cy="9.808017" id="svg_7"/>
+  <ellipse fill="#515151" stroke="null" stroke-width="null" stroke-opacity="null" cx="11.368749" cy="29.688331" id="svg_8"/>
+ </g>
+</svg>

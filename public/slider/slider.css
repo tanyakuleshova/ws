@@ -1,0 +1,52 @@
+/* Slider
+http://www.freshdesignweb.com/fashion-responsive-slider-tutorial.html
+*/
+/* Slider
+/*-----------------------------------------------------------------------------------*/
+@font-face {
+    font-family: 'flexslider-icon';
+    src: url('../fonts/flexslider-icon.eot');
+    src: url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../fonts/flexslider-icon.woff') format('woff'), url('../fonts/flexslider-icon.ttf') format('truetype'), url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.slider_container{ width:920px; margin:auto; clear:both; padding:30px 0;}
+.flex-caption{ position: absolute; right: 10px; left: 10px; bottom: 0px;}
+.caption_title_line p{ background-color: #ffffff96; padding: 10px}
+.flex-caption h2{ color:#303030;font-size:20px; padding:5px 0 5px 0; margin:0px;font-family: 'Ovo', serif;}
+
+.flex-container a:active,
+.lslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+/* lslider Necessary Styles
+*********************************/
+.lslider {width: 100%; margin: 0;}
+.lslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.lslider .slides img {max-width: 100%; display: block; border:10px #ededed solid;}
+.flex-pauseplay span {text-transform: capitalize;}
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+.no-js .slides > li:first-child {display: block;}
+.lslider {position: relative; zoom: 1;}
+.lslider .slides {zoom: 1;}
+.lslider .slides > li {position: relative;}
+.flex-container {zoom: 1; position: relative;}
+
+/* Direction Nav */
+.flex-direction-nav li a {width:55px; height:100%; margin:0; display: block; position: absolute; right:11px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+
+.flex-direction-nav li a {width:55px; height:100%; margin:0; display: block; position: absolute; right:11px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background:url(../img/images/next.svg) no-repeat center; bottom:0; right: 0;}
+.flex-direction-nav li a.prev {background:url(../img/images/prev.svg) no-repeat center;bottom:0; left: 0;}
+.flex-direction-nav li a.next:hover {background:url(../img/images/next_a.svg) no-repeat center;}
+.flex-direction-nav li a.prev:hover {background:url(../img/images/prev_a.svg) no-repeat center;}
+/* Media Queries
+/*-----------------------------------------------------------------------------------*/
+
+
+
